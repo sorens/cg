@@ -1,0 +1,35 @@
+{
+  "grammars": [
+    {
+      "name": "cg",
+      "camelcase": "Cg",
+      "scope": "source.cg",
+      "file-types": [
+        ".cdl"
+      ],
+      "injection-regex": "^cg$"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "license": "UNLICENSED",
+    "description": "Cg grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Steve Orens",
+        "email": "steve@config.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/sorens/cg"
+    }
+  },
+  "bindings": {
+    "c": false,
+    "go": false,
+    "node": true,
+    "python": false,
+    "rust": true,
+    "swift": false
+  }
+}
